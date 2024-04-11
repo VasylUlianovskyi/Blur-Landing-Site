@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #05242e;
+}
+
+.head {
+  background-image: url(/images/download.jpeg);
+  height: 50em;
+  color: #05242e;
+  text-align: center
+}
+
+.title {
+  justify-content: center;
+  font-size: 100px;
+}
