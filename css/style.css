@@ -1,20 +1,98 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
 body {
-  background-color: #05242e;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 16px;
+  background: rgba(0, 0, 0, 0.9);
+  color: white;
 }
 
-.head {
-  background-image: url(/images/download.jpeg);
-  height: 50em;
-  color: #05242e;
-  text-align: center
-}
 
-.title {
+.header::after {
+  content: '';
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  font-size: 100px;
+  align-items: center;
+  background-image: url(./../images/background.jpg);
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: blur(10px);
+  -webkit-filter: blur(10px);
+  transition: all 1000ms;
+}
+
+
+header:hover::after {
+  filter: blur(0px);
+  -webkit-filter: blur(0px);
+}
+
+header:hover .title-content {
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+}
+
+.title-content {
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  top: 10%;
+  margin-top: 105px;
+  margin-left: -145px;
+  width: 300px;
+  height: 350px;
+  text-align: center;
+  transition: all 1000ms;
+}
+
+.logo {
+  width: 180px;
+  height: 180px;
+}
+
+h1 {
+  font-size: 2.2em;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+p {
+  line-height: 1.7;
+  margin-top: 1rem;
+}
+
+.container {
+  display: flex;
+  max-width: 960px;
+  margin: auto;
+  overflow: hidden;
+  padding: 4rem 1rem;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.about-us {
+  background-color: aliceblue;
+  color: #333333;
+  margin: auto;
+
+}
+
+.about-us-descript {
+  padding-left: 15em;
+}
+
+footer {
+  color: aliceblue;
+  text-align: center;
+  padding: 1.1em;
 }

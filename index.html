@@ -4,27 +4,71 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Практика з CSS</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header class="head">
-      <h1 class="title">Перший рівень</h1>
-      <p>Текст для першого рівня</p>
+    <header class="header">
+      <div class="title-content">
+        <img class="logo" src="./images/logo.png" alt="logo" />
+        <h1>Welcome To Traversy Media</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, vel.
+        </p>
+      </div>
     </header>
-    <section>
-      <h2>Другий рівень</h2>
-      <p>Текст для другого рівня</p>
-      <img src="./images/img1.jpg" alt="Зображення 1" />
+    <section class="container">
+      <div class="wrapper">
+        <div>
+          <i class="fab fa-youtube fa-3x"></i>
+          <h3>YouTube</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil,
+            reiciendis!
+          </p>
+        </div>
+        <div>
+          <i class="fas fa-chalkboard-teacher fa-3x"></i>
+          <h3>Courses</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil,
+            reiciendis!
+          </p>
+        </div>
+        <div>
+          <i class="fas fa-briefcase fa-3x"></i>
+          <h3>Freelancing Projects</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil,
+            reiciendis!
+          </p>
+        </div>
+      </div>
     </section>
-    <article>
-      <h3>Третій рівень</h3>
-      <p>Текст для третього рівня</p>
-      <img src="./images/img3.jpg" alt="Зображення 3" />
-    </article>
-    <aside>
-      <h4>Четвертий рівень</h4>
-      <p>Текст для четвертого рівня</p>
-      <img src="./images/img4.jpg" alt="Зображення 4" />
-    </aside>
+    <section class="about-us">
+      <div class="container">
+        <i class="fas fa-laptop-code fa-10x"></i>
+        <div class="about-us-descript">
+          <h3>About Us</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non eos
+            aperiam labore consectetur maiores ea magni exercitationem similique
+            laborum sed, unde, autem vel iure doloribus aliquid. Aspernatur
+            explicabo consectetur consequatur non nesciunt debitis quos alias
+            soluta, ratione, ipsa officia reiciendis.
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p>Traversy Media © 2019</p>
+    </footer>
   </body>
 </html>
