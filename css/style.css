@@ -70,7 +70,6 @@ p {
   margin: auto;
   overflow: hidden;
   padding: 4rem 1rem;
-  /* line-height: 3em; */
 }
 
 .wrapper {
@@ -78,7 +77,7 @@ p {
   justify-content: space-between;
   text-align: center;
   gap: 25px;
-  /* margin: 0 15px 0 15px; */
+
 }
 
 .about-us {
