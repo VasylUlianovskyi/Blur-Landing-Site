@@ -24,6 +24,10 @@ body {
 }
 
 
+img {
+  object-fit: cover;
+}
+
 header:hover::after {
   filter: blur(0px);
   -webkit-filter: blur(0px);
